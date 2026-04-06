@@ -1,0 +1,37 @@
+
+.intro,
+.history {color:red}
+p {color: aqua;}
+div.facts {color:darkgreen}
+.some.navi {color: blueviolet;}
+.some {color: cadetblue;}
+#some-id {color: gold;}
+[class*="lus"] {color:fuchsia}
+[title] {color:green}
+.article p{color: blue;}
+.article ~ p{color: rgb(0, 255, 85);}
+
+/* Зроблено через alt+`
+.some {
+}
+.intro {
+}
+.headline {
+}
+.history {
+}
+.culture {
+}
+.nature {
+}
+.facts {
+}
+.future {
+}
+.article {
+}
+.plus-inform {
+}
+.navi {
+}
+*/
