@@ -1,0 +1,93 @@
+body {
+	font-family: 'Marck Script', fantasy;
+}
+
+h3 {
+	text-transform: uppercase;
+	line-height: 3;
+	font-size: 10px;
+	text-align: right;
+}
+
+.t3 {
+	text-align: right;
+}
+
+main {
+	background-color: antiquewhite;
+}
+
+.testpadding {
+	background-color: pink;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+.testmargin {
+	background-color: pink;
+	margin: 20px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.testwidth {
+	background-color: pink;
+	width: 550px;
+	margin-bottom: 15px;
+}
+
+.height {
+	background-color: pink;
+	height: 80px;
+	overflow: scroll;
+	margin-bottom: 25px;
+}
+
+.anothercss0 {
+	background-color: pink;
+	max-width: 600px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+.content {
+	padding: 20px;
+}
+
+.furniro {
+	margin: auto;
+	background-color: #FFF3E3;
+	max-width: 643px;
+	padding: 62px 43px 37px 39px;
+	font-family: "Poppins", sans-serif;
+}
+.furniro-lable {
+	font-weight: 600;
+	letter-spacing: 3px;
+	margin-bottom: 4px;
+	line-height: 1.5;
+}
+.furniro-title {
+	color: #B88E2F;
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 1.25;
+	margin-bottom: 17px;
+}
+.furniro-text {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.333;
+	margin-bottom: 46px;
+}
+.btn {
+	background: #B88E2F;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 25px 72px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+

@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Marck%20Script:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+@font-face {
+	font-family: 'Pacifico';
+	src: url('../fonts/Pacifico-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Cormorant Infant';
+	src: url('../fonts/CormorantInfant-Italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Cormorant Infant' ;
+	src: url('../fonts/CormorantInfant-SemiBold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	src: url('../fonts/DMSans-Regular.woff2') format('woff2');
+	font-style: normal;
+	font-display: swap;
+	
+}
+@font-face {
+	font-family: 'DM Sans';
+	src: url('../fonts/DMSans-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
