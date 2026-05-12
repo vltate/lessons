@@ -1,0 +1,178 @@
+main {
+  background-color: antiquewhite;
+}
+.tborder {
+  background-color: aqua;
+  height: 50px;
+  max-width: 500px;
+  padding: 17px;
+  margin: 20px;
+  border-top: 3px solid red;
+  border-left: 3px dotted red;
+  border-bottom: 3px dashed red;
+  border-right: 3px double red;
+  border-right: none;
+  margin-bottom: 25px;
+}
+.toutline {
+  background-color: aqua;
+  height: 50px;
+  max-width: 500px;
+  margin: 20px;
+  border: 3px solid red;
+  outline: 5px solid black;
+  margin-bottom: 25px;
+}
+.br {
+  background-color: aqua;
+  margin: 20px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  font-size: 10px;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 25px;
+}
+.sh {
+  background-color: aqua;
+  height: 50px;
+  max-width: 500px;
+  margin: 20px;
+  box-shadow: inset 0px 2px 6px 0px rgba(0, 0, 0, 0.89);
+  padding: 17px;
+  margin-bottom: 25px;
+}
+.opacity {
+  background-color: aqua;
+  height: 50px;
+  max-width: 500px;
+  margin: 20px;
+  padding: 17px;
+  opacity: 0.5;
+  margin-bottom: 25px;
+}
+.imgbox {
+  background-color: aqua;
+  text-align: center;
+  padding: 65px;
+  height: 150px;
+  max-width: 500px;
+  margin: 20px;
+  vertical-align: middle;
+  color: aliceblue;
+  background-image: url(../img/61677+JfF1L._AC_UF350\,350_QL80_.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 25px;
+}
+.furniro {
+  background-image: url("../img/Rectangle.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  padding-top: 61px;
+  padding-bottom: 97px;
+  margin-bottom: 25px;
+}
+.borderbox {
+  margin: 0 auto;
+  text-align: center;
+}
+.logo {
+  margin-bottom: -16px;
+  margin: 0%;
+}
+
+.breadcrumbs-item {
+  display: inline-block;
+}
+.title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.breadcrumbs {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.breadcrumbs-link {
+  background-image: url("../img/arrov.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 26px;
+  font-weight: 500;
+}
+.breadcrumbs-item + .breadcrumbs-item {
+  margin-left: 4px;
+}
+.catalyst {
+  background-image:
+    url(../img/svgcata.svg),
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 94px;
+  padding-bottom: 85px;
+  margin-bottom: 25px;
+}
+.contentbox {
+  margin: 0;
+  text-align: center;
+}
+.catatitile {
+  font-family: "Barlow", sans-serif;
+  line-height: 1, 203125;
+  font-size: 64px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #f9efec;
+  margin-bottom: 36px;
+}
+.btn {
+  background-color: #0a84ff;
+  color: #ffffff;
+  font-family: "RobotoFlex", sans-serif;
+  line-height: 1.5;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  min-width: 235px;
+  display: inline-block;
+  border-radius: 12px;
+  max-width: 834px;
+}
+.article {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #1a1a1a;
+  padding: 32px 32px 8px 32px;
+  color: #b3b3b2;
+  border-radius: 12px;
+  max-width: 834px;
+  margin: 0 auto;
+}
+.article h3 {
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #f9efec;
+  margin-bottom: 12px;
+}
+.article p {
+  margin-bottom: 24px;
+}
+.article ul {
+  margin-bottom: 24px;
+}
+.article li {
+  margin-bottom: 12px;
+  background-image: url("../img/logodot.svg");
+  background-repeat: no-repeat;
+  background-position: 0 4px;
+  padding-left: 24px;
+}
