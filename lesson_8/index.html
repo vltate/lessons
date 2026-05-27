@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Lesson 8</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Заняття 8 Веб графіка, формати зображень</h1>
+    </header>
+    <main>
+		<div>
+			<h2>Іконки</h2>
+			<ul class="icons">
+				<li>Іконка,вектор,svg</li>
+				<li>Іконка,вектор,svg</li>
+			</ul>
+		</div>
+		<div>
+			<h2>Контентні зображення, растрові з JPEG в WEBp</h2>
+			<div class="roomview">
+				<img src="img/room1.webp" alt="image">
+				<img src="img/room2.webp" alt="image">
+				<img src="img/room3.webp" alt="image">
+			</div>
+		</div>
+		<div>
+			<h2>Контентне зображення, растрове з JPEG оптимізацією та розширеною якістю 2Х та 3Х</h2>
+			<picture>
+				<source srcset="img/image.jpg 1x, img/image-2x.jpg 2x, img/image-3x.jpg 3x">
+				<img src="img/image.jpg" alt="image">
+			</picture>
+		</div>
+		<div>
+			<h2>Контенте зображення, растрове з PNG в WEBp</h2>
+			<img src="img/mainlogo.webp" alt="logo">
+		</div>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
