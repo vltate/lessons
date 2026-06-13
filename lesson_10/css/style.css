@@ -1,0 +1,113 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(97, 97, 97);
+  z-index: 50px;
+  font-size: 10px;
+}
+
+.header__conteiner {
+}
+.header__menu {
+}
+.menu {
+}
+.menu__body {
+}
+.menu__item {
+  display: inline-block;
+  font-size: 10px;
+  position: relative;
+  top: 100%;
+  font-size: 25px;
+
+}
+.menu__link {
+  text-transform: uppercase;
+}
+
+.menu__submenu,
+.menu__infobox{
+  background-color: rgba(240, 248, 255, 0.075);
+  position: absolute;
+  left: 0;
+  top: 100%;
+  visibility: hidden;
+}
+.menu__infobox {
+  left: 100%;
+  top: 0;
+}
+.submenu__item {
+  position: relative;
+}
+[class*="__link"] {
+	padding: 4px;
+}
+[class*="__link"]:hover {
+background-color: rgba(255, 228, 196, 0.384);
+}
+.menu__item:not(:last-child) {
+  margin-right: 10px;
+}
+.menu__item:hover .menu__submenu{
+  visibility: visible;
+  opacity: 1;
+}
+.submenu__item:hover .menu__infobox{
+  visibility: visible;
+}
+
+.page {
+	 background-color: rgba(248, 214, 214, 0.342);
+    padding: 90px 0;
+	 font-family: "Barlow", sans-serif;
+	 
+}
+.conteiner {
+	background-color:#1a1a1a;
+	max-width: 770px;
+	margin: 0 auto;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.conteiner__title {
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.5;
+	margin-bottom: 12px;
+}
+
+.conteiner__item {
+ font-size: 16px;
+ line-height: 1.5;
+ color: #B3B3B2;
+ padding-left: 26px;
+ position: relative;
+}
+.conteiner__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.conteiner__item::before {
+	content:"";
+	background: url(../img/dimond.svg);
+	width: 16px;
+	height: 16px;
+	position: absolute;
+		top: 4px;
+		left: 0;
+}
