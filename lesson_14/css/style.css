@@ -1,0 +1,162 @@
+body {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: "Poppins", sans-serif;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper > main {
+  flex-grow: 1;
+}
+
+[class*="__container"] {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.blank {
+  width: 531px;
+  padding: 119px 52px 63px 52px;
+}
+.form {
+  margin-bottom: 20px;
+}
+
+.form__fname,
+.form__femail,
+.form__fsubject {
+  margin-bottom: 36px;
+}
+
+.form__fmessage {
+  margin-bottom: 49px;
+}
+
+[class*="__label"] {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+
+[class*="__input"] {
+  padding-left: 29.75px;
+  padding-right: 29.75px;
+  min-height: 75px;
+  outline: 1px solid #9f9f9f;
+  border-radius: 10px;
+}
+
+.fmessage__input {
+  padding: 26px 30px 26px 30px;
+  outline: 1px solid #9f9f9f;
+  border-radius: 10px;
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form__btn {
+  color: #fff;
+  border-radius: 5px;
+  min-width: 237px;
+  padding: 13.75px 20px;
+  background: #b88e2f;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+button:active {
+  background: #9f9f9f;
+}
+.elements {
+  background-color: #9f9f9f05;
+}
+
+.checkbox {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.checkbox__chinput {
+  display: none;
+}
+
+.checkbox__chlabel {
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f9f1e7;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.checkbox__chinput:checked + .checkbox__chlabel {
+  background: #b88e2f;
+  color: #fff;
+}
+
+h2 {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #9f9f9f;
+  margin-bottom: 12px;
+}
+
+.radio-btn {
+  display: flex;
+  gap: 15px;
+}
+
+.radio-btn__item {
+  position: relative;
+}
+
+.radio-btn__rinput {
+  position: absolute;
+  opacity: 0;
+}
+
+.radio-btn__rlabel {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+#purple + .radio-btn__rlabel {
+  background-color: #816DFA;
+}
+
+#black + .radio-btn__rlabel {
+  background-color: black;
+}
+
+#gold + .radio-btn__rlabel {
+  background-color: #B88E2F;
+}
+
+.radio-btn__rinput:checked + .radio-btn__rlabel {
+  border-color: #333;
+  box-shadow:
+    0 0 0 3px #fff,
+    0 0 0 5px #333;
+}
